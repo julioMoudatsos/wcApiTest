@@ -29,7 +29,7 @@ public class ApiTest {
                 body("   {\n" +
                         "\n" +
                         "            \"task\": \"julio2\",\n" +
-                        "                \"dueDate\": \"2023-09-21\"\n" +
+                        "                \"dueDate\": \"2033-09-21\"\n" +
                         "        }")
                 .when()
                 .post("/todo")
